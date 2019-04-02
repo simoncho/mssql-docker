@@ -10,3 +10,6 @@ CMD [ "/opt/mssql/bin/sqlservr" ]
 
 
 #docker run -p 127.0.0.1:$HOSTPORT:$CONTAINERPORT --name CONTAINER -t someimage
+
+#docker build . -t mssql-docker
+#docker run -p 2433:1433 mssql-docker
