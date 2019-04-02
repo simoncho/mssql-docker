@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu as build
+FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 ENV ACCEPT_EULA="Y"
 ENV SA_PASSWORD="ThisIsSecret123"
